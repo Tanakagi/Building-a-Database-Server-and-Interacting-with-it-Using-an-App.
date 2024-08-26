@@ -10,10 +10,16 @@ In this project, I created a highly available Relational Database Server and Int
 
 ## AWS services used:
 <b> **• Amazon EC2** - used to host the web application.</br>
-<b> **• Amazon RDS**: - used to connect to the web application and receive information from it.</br>
+<b> **• Amazon RDS** - used to connect to the web application and receive information from it.</br>
 <b> **• Amazon VPC and subnets** - used to tell RDS which subnets can be used for the database.</br>
 <b> **• Internet Gateway** - used to provide internet access for the web app.</br>
 <b> **• NAT Gateway** - used to control and secure network routing.</br>
+</br>
+
+**Start of project infrastructure**
+<img src="" height="80%" width="80%" />
+
+**End of project infrastructure**
 <img src="" height="80%" width="80%" />
 
 # Project walk-through:
