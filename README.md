@@ -1,4 +1,4 @@
-# Building-a-Database-Server-and-Interacting-with-it-Using-an-App.
+# Building-a-Database-Server-and-Using-a-Web-App-to-Interacting-with-it.
 
 In this project, I created a highly available Relational Database Server and Interact with my DB Using a web App.
 
