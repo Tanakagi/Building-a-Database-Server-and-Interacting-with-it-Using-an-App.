@@ -16,20 +16,20 @@ In this project, I created a highly available Relational Database Server and Int
 <b> **• NAT Gateway** - used to control and secure network routing.</br>
 </br>
 
-**Start of project infrastructure**
-<img src="" height="80%" width="80%" />
+<b>**Start of project infrastructure**</br>
+<img src="https://github.com/Tanakagi/Building-a-Database-Server-and-Using-a-Web-App-to-Interacting-with-it./blob/d3b57ae35e2d318a422551e87a883b9f2bed0c4a/Project%20Images/Image%201.png" height="60%" width="60%" />
 
-**End of project infrastructure**
-<img src="" height="80%" width="80%" />
+<b>**End of project infrastructure**</br>
+<img src="https://github.com/Tanakagi/Building-a-Database-Server-and-Using-a-Web-App-to-Interacting-with-it./blob/d3b57ae35e2d318a422551e87a883b9f2bed0c4a/Project%20Images/Image%202.png" height="60%" width="60%" />
 
 # Project walk-through:
 
 ### Task 1: Creating a Security Group for the RDS DB Instance
 
 <b>• In this task, I created a security group to allow my web server to access my RDS DB instance.</br> 
-<img src="" height="80%" width="80%" />
-<img src="" height="80%" width="80%" />
-<img src="" height="80%" width="80%" />
+<img src="https://github.com/Tanakagi/Building-a-Database-Server-and-Using-a-Web-App-to-Interacting-with-it./blob/d3b57ae35e2d318a422551e87a883b9f2bed0c4a/Project%20Images/Image%203.png" height="80%" width="80%" />
+<img src="https://github.com/Tanakagi/Building-a-Database-Server-and-Using-a-Web-App-to-Interacting-with-it./blob/d3b57ae35e2d318a422551e87a883b9f2bed0c4a/Project%20Images/Image%204.png" height="80%" width="80%" />
+<img src="https://github.com/Tanakagi/Building-a-Database-Server-and-Using-a-Web-App-to-Interacting-with-it./blob/d3b57ae35e2d318a422551e87a883b9f2bed0c4a/Project%20Images/Image%205.png" height="80%" width="80%" />
 </br>
 </br>
 </br>
@@ -41,7 +41,7 @@ In this project, I created a highly available Relational Database Server and Int
 
 <b>• In the AWS Management Console, I selected RDS under Database.</br>
 <b>• In the left navigation pane, I clicked on Subnet groups.</br>
-<img src="" height="50%" width="50%" />
+<img src="https://github.com/Tanakagi/Building-a-Database-Server-and-Using-a-Web-App-to-Interacting-with-it./blob/d3b57ae35e2d318a422551e87a883b9f2bed0c4a/Project%20Images/Image%206.png" height="80%" width="80%" />
 </br>
 </br>
 
@@ -50,8 +50,8 @@ In this project, I created a highly available Relational Database Server and Int
 <b>• This adds Private Subnet 1 (10.0.1.0/24) and Private Subnet 2 (10.0.3.0/24).</br>
 <b>I will use this DB subnet group when creating the database in the next task.</br>
 <b>• I then Created the DB subnet group.</br>
-<img src="" height="80%" width="80%" />
-<img src="" height="80%" width="80%" />
+<img src="https://github.com/Tanakagi/Building-a-Database-Server-and-Using-a-Web-App-to-Interacting-with-it./blob/d3b57ae35e2d318a422551e87a883b9f2bed0c4a/Project%20Images/Image%207.png" height="80%" width="80%" />
+<img src="https://github.com/Tanakagi/Building-a-Database-Server-and-Using-a-Web-App-to-Interacting-with-it./blob/d3b57ae35e2d318a422551e87a883b9f2bed0c4a/Project%20Images/Image%208.png" height="80%" width="80%" />
 </br>
 </br>
 </br>
@@ -60,45 +60,47 @@ In this project, I created a highly available Relational Database Server and Int
 
 <b>In this task, I configured and launched a Multi-AZ Amazon RDS for MySQL database instance named lab_db.</br>
 <b>• In the Databases page I clicked create database.</br>
-<img src="g" height="80%" width="80%" />
+<img src="https://github.com/Tanakagi/Building-a-Database-Server-and-Using-a-Web-App-to-Interacting-with-it./blob/d3b57ae35e2d318a422551e87a883b9f2bed0c4a/Project%20Images/Image%209.png" height="80%" width="80%" />
 </br>
 </br>
 
 <b>• I configured the Database as follows:</br>
-<img src="" height="80%" width="80%" />
-<img src="" height="80%" width="80%" />
+<img src="https://github.com/Tanakagi/Building-a-Database-Server-and-Using-a-Web-App-to-Interacting-with-it./blob/d3b57ae35e2d318a422551e87a883b9f2bed0c4a/Project%20Images/Image%2010.png" height="80%" width="80%" />
+<img src="https://github.com/Tanakagi/Building-a-Database-Server-and-Using-a-Web-App-to-Interacting-with-it./blob/d3b57ae35e2d318a422551e87a883b9f2bed0c4a/Project%20Images/Image%2011.png" height="80%" width="80%" />
+<img src="https://github.com/Tanakagi/Building-a-Database-Server-and-Using-a-Web-App-to-Interacting-with-it./blob/d3b57ae35e2d318a422551e87a883b9f2bed0c4a/Project%20Images/Image%2012.png" height="80%" width="80%" />
+<img src="https://github.com/Tanakagi/Building-a-Database-Server-and-Using-a-Web-App-to-Interacting-with-it./blob/d3b57ae35e2d318a422551e87a883b9f2bed0c4a/Project%20Images/Image%2013.png" height="80%" width="80%" />
 </br>
 </br>
 
 
 <b>• Under Instance configuration, I configured the following for the DB instance class:</br>
 <b>• Under Storage, I configured the following:</br>
-<img src="" height="80%" width="80%" />
+<img src="https://github.com/Tanakagi/Building-a-Database-Server-and-Using-a-Web-App-to-Interacting-with-it./blob/d3b57ae35e2d318a422551e87a883b9f2bed0c4a/Project%20Images/Image%2014.png" height="80%" width="80%" />
 </br>
 </br>
 
 <b>• Under Connectivity, I configured the following:</br>
-<img src="" height="80%" width="80%" />
+<img src="https://github.com/Tanakagi/Building-a-Database-Server-and-Using-a-Web-App-to-Interacting-with-it./blob/d3b57ae35e2d318a422551e87a883b9f2bed0c4a/Project%20Images/Image%2015.png" height="80%" width="80%" />
 </br>
 </br>
 
 
 <b>• Under VPC security group I selected "Choose existing":</br>
 <b>• Under "Existing VPC security groups" I did the following:</br>
-<img src="" height="80%" width="80%" />
+<img src="https://github.com/Tanakagi/Building-a-Database-Server-and-Using-a-Web-App-to-Interacting-with-it./blob/d3b57ae35e2d318a422551e87a883b9f2bed0c4a/Project%20Images/Image%2016.png" height="80%" width="80%" />
 </br>
 </br>
 
 <b>• Under Monitoring, I expanded Additional configuration and then configured the following:</br>
-<img src="" height="80%" width="80%" />
+<img src="https://github.com/Tanakagi/Building-a-Database-Server-and-Using-a-Web-App-to-Interacting-with-it./blob/d3b57ae35e2d318a422551e87a883b9f2bed0c4a/Project%20Images/Image%2017.png" height="80%" width="80%" />
 </br>
 </br>
 
 <b>• I scroll down to the  Additional Configuration section and expand this option. I configured the following:</br>
 <b>This will turn off backups, which is not normally recommended but will make the database deploy faster for this project.</br>
 <b>• I then created the Database.</br>
-<img src="" height="80%" width="80%" />
-<img src="" height="80%" width="80%" />
+<img src="https://github.com/Tanakagi/Building-a-Database-Server-and-Using-a-Web-App-to-Interacting-with-it./blob/d3b57ae35e2d318a422551e87a883b9f2bed0c4a/Project%20Images/Image%2019.png" height="80%" width="80%" />
+<img src="https://github.com/Tanakagi/Building-a-Database-Server-and-Using-a-Web-App-to-Interacting-with-it./blob/d3b57ae35e2d318a422551e87a883b9f2bed0c4a/Project%20Images/Image%2020.png" height="80%" width="80%" />
 </br>
 </br>
 </br>
@@ -109,35 +111,28 @@ In this project, I created a highly available Relational Database Server and Int
 
 <b>• I opened a new web browser tab and typed the WebServer IP address.</br>
 <b>• At the top of the web application page, I clicked the RDS link.</br>
-<img src="" height="80%" width="80%" />
+<img src="https://github.com/Tanakagi/Building-a-Database-Server-and-Using-a-Web-App-to-Interacting-with-it./blob/d3b57ae35e2d318a422551e87a883b9f2bed0c4a/Project%20Images/Image%2021.png" height="80%" width="80%" />
 </br>
 </br>
 
 <b>• I then configured the application to connect to my database.</br>
 <b>• filled in the following lab_db information in the open fields, and clicked submit</br>
-<img src="" height="80%" width="80%" />
+<img src="https://github.com/Tanakagi/Building-a-Database-Server-and-Using-a-Web-App-to-Interacting-with-it./blob/d3b57ae35e2d318a422551e87a883b9f2bed0c4a/Project%20Images/Image%2022.png" height="80%" width="80%" />
 </br>
 </br>
 
 <b>A message  appeared explaining that the application is running a command to copy information to the database.</br>
 <b>After a few seconds, the application displayed an Address Book.</br>
 <b>The Address Book application uses the RDS database to store information.</br>
-<img src="" height="80%" width="80%" />
-</br>
-</br>
-
-<b>• I then clicked Save intent and Build to save the changes</br>
-<b>• I then started the 3rd round of testing the chatbot.</br>
-<img src="" height="80%" width="80%" />
-<img src="" height="80%" width="80%" />
+<img src="https://github.com/Tanakagi/Building-a-Database-Server-and-Using-a-Web-App-to-Interacting-with-it./blob/d3b57ae35e2d318a422551e87a883b9f2bed0c4a/Project%20Images/Image%2023.png" height="80%" width="80%" />
 </br>
 </br>
 
 <b>• I then tested the web application by adding, editing and removing contacts.</br>
 <b>The data was persisted to the database and  automatically replicated to the second Availability Zone.</br>
-<img src="" height="80%" width="80%" />
-<img src="" height="80%" width="80%" />
-<img src="" height="80%" width="80%" />
+<img src="https://github.com/Tanakagi/Building-a-Database-Server-and-Using-a-Web-App-to-Interacting-with-it./blob/d3b57ae35e2d318a422551e87a883b9f2bed0c4a/Project%20Images/Image%2024.png" height="80%" width="80%" />
+<img src="https://github.com/Tanakagi/Building-a-Database-Server-and-Using-a-Web-App-to-Interacting-with-it./blob/d3b57ae35e2d318a422551e87a883b9f2bed0c4a/Project%20Images/Image%2025.png" height="80%" width="80%" />
+<img src="https://github.com/Tanakagi/Building-a-Database-Server-and-Using-a-Web-App-to-Interacting-with-it./blob/d3b57ae35e2d318a422551e87a883b9f2bed0c4a/Project%20Images/Image%2026.png" height="80%" width="80%" />
 </br>
 </br>
 </br>
